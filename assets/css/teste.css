@@ -1,0 +1,270 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("https://cdn.wallpapersafari.com/70/86/t6HCFo.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  /* max-width: 1100px; */
+}
+
+/* header */
+.cafe-header {
+  width: 200px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.icons {
+  display: flex;
+  gap: 20px;
+  font-size: 25px;
+}
+
+.bi-facebook {
+  color: rgb(96, 56, 19);
+  gap: 20px;
+}
+
+.bi-instagram {
+  color: rgb(96, 56, 19);
+}
+
+.bi-whatsapp {
+  color: rgb(96, 56, 19);
+}
+
+/* main */
+
+h1 {
+  text-align: center;
+  margin-top: 5rem;
+  /* margin-bottom: 5rem; */
+  color: rgb(96, 56, 19);
+  font-family: "Bebas Neue", cursive;
+}
+
+.h2 {
+  text-align: center;
+  /* margin-top: 5rem; */
+  margin-bottom: 5rem;
+  color: rgb(96, 56, 19);
+  font-family: "Bebas Neue", cursive;
+}
+
+.cafe-leite {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20%;
+}
+
+.cafe-leite img {
+  width: 260px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 50px rgb(99, 99, 99);
+}
+
+.cafe,
+h4,
+p {
+  color: rgb(96, 56, 19);
+  font-family: "Bebas Neue", cursive;
+}
+
+.cafe p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.cappuccino {
+  margin-top: 8rem;
+  display: flex;
+  align-items: center;
+  margin-left: 10%;
+  gap: 20%;
+}
+
+.img-cappuccino {
+  width: 295px;
+  height: 250px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 50px rgb(99, 99, 99);
+}
+
+.cafe-cappuccino,
+h4,
+p {
+  color: rgb(96, 56, 19);
+  font-family: "Bebas Neue", cursive;
+}
+
+.cafe-cappuccino p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.expresso {
+  margin-top: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8%;
+}
+
+.img-expresso {
+  width: 295px;
+  height: 250px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 50px rgb(99, 99, 99);
+}
+
+.cafe-expresso,
+h4,
+p {
+  color: rgb(96, 56, 19);
+  font-family: "Bebas Neue", cursive;
+}
+
+.cafe-expresso p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.mocha {
+  margin-top: 8rem;
+  display: flex;
+  align-items: center;
+  margin-left: 16%;
+  gap: 8%;
+}
+
+.img-mocha {
+  width: 260px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 50px rgb(99, 99, 99);
+}
+
+.cafe-mocha,
+h4,
+p {
+  color: rgb(96, 56, 19);
+  font-family: "Bebas Neue", cursive;
+}
+
+.cafe-mocha p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* breakpoints */
+
+@media (max-width: 690px) {
+  body {
+    background-image: url("https://i.pinimg.com/736x/05/ff/a2/05ffa2fc15da3fca1fabe2a6d0732c42.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .cafe-header {
+    width: 300px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .cafe-leite {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .section-cafe-leite {
+    background-color: #fff;
+    padding: 10px 8px;
+    border-radius: 20px;
+    margin-bottom: 3rem;
+  }
+
+  .cafe-leite img {
+    /* margin-bottom: 3rem; */
+    box-shadow: none;
+    width: 295px;
+    height: 260px;
+  }
+
+  .cappuccino {
+    /* margin-top: 5rem; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    gap: 8px;
+  }
+
+  .section-cappuccino {
+    background-color: #fff;
+    padding: 10px 8px;
+    border-radius: 20px;
+    margin-bottom: 3rem;
+  }
+
+  .img-cappuccino {
+    /* margin-bottom: 5px; */
+    box-shadow: none;
+  }
+
+  .expresso {
+    display: grid;
+    grid-template-columns: 2;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 3rem;
+    gap: 8px;
+  }
+
+  .section-expresso {
+    background-color: #fff;
+    padding: 10px 8px;
+    border-radius: 20px;
+  }
+
+  .img-expresso {
+    box-shadow: none;
+  }
+
+  .mocha {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    gap: 8px;
+  }
+
+  .section-mocha {
+    background-color: #fff;
+    padding: 10px 8px;
+    border-radius: 20px;
+    margin-bottom: 3rem;
+  }
+
+  .img-mocha {
+    box-shadow: none;
+    width: 295px;
+    height: 280px;
+  }
+}

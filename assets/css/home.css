@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/xicara-de-cafe-com-vista-superior.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    max-width: 1100px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 5rem 15rem;
+}
+
+.btn a {
+    color: #fff;
+    font-family: 'Alkatra', cursive;
+    font-size: 22px;
+    font-weight: 500;
+    text-decoration: none;
+    border: solid 3px #fff;
+    padding: 4px 20px;
+    box-shadow: 10px 4px 18px #000000;
+}
+
+/* breakpoints */
+
+@media(max-width: 1024px) {
+    
+}
+
+@media(max-width: 992px) {
+    .container {
+        margin: 0 auto 3rem;
+    }
+}
+
+@media(max-width: 768px) {
+
+}
+
+@media(max-width: 600px) {
+    body {
+        background-image: url('https://wallpapercrafter.com/desktop/303540-Food-Coffee-Phone-Wallpaper.jpg');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        position: center center;
+    }
+
+    .container {
+        margin: 0 auto 12rem;
+    }
+}

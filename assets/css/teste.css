@@ -43,7 +43,7 @@ body {
 
 h1 {
   text-align: center;
-  margin-top: 5rem;
+  margin-top: 1rem;
   /* margin-bottom: 5rem; */
   color: rgb(96, 56, 19);
   font-family: "Bebas Neue", cursive;
@@ -268,3 +268,52 @@ p {
     height: 280px;
   }
 }
+
+  /* Estilos para o carrossel */
+.carousel img {
+  width: 100%;
+  max-width: 300px;
+  max-height: 500px;
+  margin: 0 auto;
+  object-fit: cover;
+}
+
+.carousel h3,
+.carousel p {
+  text-align: center;
+}
+
+.carousel {
+  width: 80%;
+  height: 500px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.slick-prev,
+.slick-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  background-color: rgba(22, 9, 9, 0);
+  border: none;
+  font-size: 50px;
+  cursor: pointer;
+}
+
+
+.slick-prev {
+  left: -60px;
+  color: rgb(7, 7, 7);
+}
+
+.slick-next {
+  right: -60px;
+  color: rgb(7, 7, 7);
+}
+  
+  
+  
+  

@@ -57,27 +57,43 @@ h1 {
   font-family: "Bebas Neue", cursive;
 }
 
-.cafe-leite {
+/* .cafe-leite {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 20%;
-}
+} */
 
-.cafe-leite img {
+/* .cafe-leite img {
   width: 260px;
   border-radius: 20px;
   box-shadow: 5px 5px 50px rgb(99, 99, 99);
+} */
+
+.cafe {
+  display: flex;
+  align-items: center;
+  line-height: 50px;
+  margin-left: 26%;
 }
 
-.cafe,
-h4,
+.cafe img {
+  border-radius: 10px 0 0 10px;
+}
+
+.cafe-body {
+  background-color: #fff;
+  padding: 49px 30px 49px 30px;
+  border-radius: 0 10px 10px 0;
+}
+
+/* h4,
 p {
   color: rgb(96, 56, 19);
   font-family: "Bebas Neue", cursive;
-}
+} */
 
-.cafe p {
+/* .cafe p {
   font-size: 18px;
   font-weight: 500;
 }
@@ -95,16 +111,14 @@ p {
   height: 250px;
   border-radius: 20px;
   box-shadow: 5px 5px 50px rgb(99, 99, 99);
-}
+} */
 
-.cafe-cappuccino,
-h4,
 p {
   color: rgb(96, 56, 19);
   font-family: "Bebas Neue", cursive;
 }
 
-.cafe-cappuccino p {
+/* .cafe-cappuccino p {
   font-size: 18px;
   font-weight: 500;
 }
@@ -115,9 +129,9 @@ p {
   align-items: center;
   justify-content: center;
   gap: 8%;
-}
+} */
 
-.img-expresso {
+/* .img-expresso {
   width: 295px;
   height: 250px;
   border-radius: 20px;
@@ -129,9 +143,9 @@ h4,
 p {
   color: rgb(96, 56, 19);
   font-family: "Bebas Neue", cursive;
-}
+} */
 
-.cafe-expresso p {
+/* .cafe-expresso p {
   font-size: 18px;
   font-weight: 500;
 }
@@ -148,19 +162,19 @@ p {
   width: 260px;
   border-radius: 20px;
   box-shadow: 5px 5px 50px rgb(99, 99, 99);
-}
+} */
 
-.cafe-mocha,
+/* .cafe-mocha,
 h4,
 p {
   color: rgb(96, 56, 19);
   font-family: "Bebas Neue", cursive;
-}
+} */
 
-.cafe-mocha p {
+/* .cafe-mocha p {
   font-size: 18px;
   font-weight: 500;
-}
+} */
 
 /* breakpoints */
 
@@ -269,23 +283,22 @@ p {
   }
 }
 
-  /* Estilos para o carrossel */
+/* Estilos para o carrossel */
 .carousel img {
-  width: 100%;
   max-width: 300px;
   max-height: 500px;
-  margin: 0 auto;
-  object-fit: cover;
+  /* margin: 0 auto;
+  object-fit: cover; */
 }
 
-.carousel h3,
+/* .carousel h3,
 .carousel p {
   text-align: center;
-}
+} */
 
 .carousel {
-  width: 80%;
-  height: 500px;
+  width: 70%;
+  /* height: 500px; */
   margin: 0 auto;
   position: relative;
 }
@@ -303,7 +316,6 @@ p {
   cursor: pointer;
 }
 
-
 .slick-prev {
   left: -60px;
   color: rgb(7, 7, 7);
@@ -313,7 +325,3 @@ p {
   right: -60px;
   color: rgb(7, 7, 7);
 }
-  
-  
-  
-  

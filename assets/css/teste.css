@@ -57,124 +57,47 @@ h1 {
   font-family: "Bebas Neue", cursive;
 }
 
-/* .cafe-leite {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20%;
-} */
+.subtitle {
+  text-align: center;
+  color: rgb(96, 56, 19);
+  font-family: "Bebas Neue", cursive;
+}
 
-/* .cafe-leite img {
-  width: 260px;
-  border-radius: 20px;
-  box-shadow: 5px 5px 50px rgb(99, 99, 99);
-} */
-
-.cafe {
+.cafe, .expresso, .mocha, .cappuccino {
   display: flex;
   align-items: center;
   line-height: 50px;
-  margin-left: 26%;
+  margin-left: 23%;
 }
 
-.cafe img {
+.cafe img, .expresso img, .mocha img, .cappuccino img {
   border-radius: 10px 0 0 10px;
+  width: 300px;
 }
 
-.cafe-body {
+.expresso img {
+  height: 232px;
+}
+.cappuccino img {
+  height: 280px;
+}
+
+.cafe-body, .expresso-body, .mocha-body {
   background-color: #fff;
-  padding: 49px 30px 49px 30px;
+  padding: 61px 30px;
   border-radius: 0 10px 10px 0;
 }
 
-/* h4,
-p {
-  color: rgb(96, 56, 19);
-  font-family: "Bebas Neue", cursive;
-} */
-
-/* .cafe p {
-  font-size: 18px;
-  font-weight: 500;
+.cappuccino-body {
+  background-color: #fff;
+  padding: 18px 30px;
+  border-radius: 0 10px 10px 0;
 }
-
-.cappuccino {
-  margin-top: 8rem;
-  display: flex;
-  align-items: center;
-  margin-left: 10%;
-  gap: 20%;
-}
-
-.img-cappuccino {
-  width: 295px;
-  height: 250px;
-  border-radius: 20px;
-  box-shadow: 5px 5px 50px rgb(99, 99, 99);
-} */
 
 p {
   color: rgb(96, 56, 19);
   font-family: "Bebas Neue", cursive;
 }
-
-/* .cafe-cappuccino p {
-  font-size: 18px;
-  font-weight: 500;
-}
-
-.expresso {
-  margin-top: 8rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8%;
-} */
-
-/* .img-expresso {
-  width: 295px;
-  height: 250px;
-  border-radius: 20px;
-  box-shadow: 5px 5px 50px rgb(99, 99, 99);
-}
-
-.cafe-expresso,
-h4,
-p {
-  color: rgb(96, 56, 19);
-  font-family: "Bebas Neue", cursive;
-} */
-
-/* .cafe-expresso p {
-  font-size: 18px;
-  font-weight: 500;
-}
-
-.mocha {
-  margin-top: 8rem;
-  display: flex;
-  align-items: center;
-  margin-left: 16%;
-  gap: 8%;
-}
-
-.img-mocha {
-  width: 260px;
-  border-radius: 20px;
-  box-shadow: 5px 5px 50px rgb(99, 99, 99);
-} */
-
-/* .cafe-mocha,
-h4,
-p {
-  color: rgb(96, 56, 19);
-  font-family: "Bebas Neue", cursive;
-} */
-
-/* .cafe-mocha p {
-  font-size: 18px;
-  font-weight: 500;
-} */
 
 /* breakpoints */
 
@@ -297,7 +220,7 @@ p {
 } */
 
 .carousel {
-  width: 70%;
+  width: 75%;
   /* height: 500px; */
   margin: 0 auto;
   position: relative;

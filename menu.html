@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="./assets/img/android-chrome-192x192.png"
+      type="image/x-icon"
+    />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+
+    <!-- bootstrap icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+
+    <!-- link css page-->
+    <link rel="stylesheet" href="./assets/css/menu.css" />
+
+    <title>Café & Cia</title>
+  </head>
+
+  <body>
+    <!-- header -->
+    <header>
+      <div class="container">
+        <div class="conteiner-header">
+          <img
+            src="./assets/img/logo-header.png"
+            class="cafe-header img-fluid"
+            alt="logo marca da cafeteria"
+          />
+        </div>
+
+        <div class="icons">
+          <a href="#"><i class="bi bi-facebook"></i></a>
+          <a href="https://www.instagram.com/cafeecia_of/" target="_blank"
+            ><i class="bi bi-instagram"></i
+          ></a>
+          <a href="https://wa.me/5579998743803" target="_blank"
+            ><i class="bi bi-whatsapp"></i
+          ></a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="container-header">
+        <h1>Cardápio</h1>
+        <br />
+      </div>
+
+      <!-- carousel -->
+      <div class="carousel">
+        <section>
+          <div class="container-cafe">
+            <div class="cafe">
+              <img src="https://www.receitasedicasdochef.com.br/wp-content/uploads/2014/09/Torta-de-Frango-de-Liquidificador.jpg" class="cafe-img"/>
+              <div class="cafe-body">
+                <h2 class="subtitle">Torta salgada</h2>
+                <!-- <p>Café simples............................R$2,00</p>
+                <p>Café com leite.........................R$4,00</p> -->
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="container-expresso">
+            <div class="expresso">
+              <img
+                src="https://www.montarumnegocio.com/wp-content/uploads/2022/06/fatias-gourmet.jpg" class="torta-doce"
+              />
+              <div class="expresso-body">
+                <h2 class="subtitle">Torta</h2>
+                <!-- <p>Café expresso na máquina...........................R$4,00</p> -->
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="container-mocha">
+            <div class="mocha">
+              <img
+                src="https://img.cybercook.com.br/receitas/711/trufas-de-chocolate-7.jpeg" class="cafe-mocha"
+              />
+              <div class="mocha-body">
+                <h2 class="subtitle">Trufas</h2>
+                <!-- <p>Café cremoso simples............................R$5,00</p>
+                <p>Café cremoso c/ creme.........................R$6,00</p> -->
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="container-cappuccino">
+            <div class="cappuccino">
+              <img
+                src="https://simoesfilhoonline.com.br/wp-content/uploads/2021/10/Cafe-Mocha.jpg" class="cafe-mocha"
+              />
+              <div class="cappuccino-body">
+                <h2 class="subtitle">Mocha</h2>
+                <!-- <p>Cappuccino pequeno............................R$5,00</p>
+                <p>Cappuccino grande.............................R$6,00</p>
+                <p>Cappuccino c/ chantilly....................R$8,00</p> -->
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- menu -->
+      <section>
+        <div class="coffee">
+          <h2 class="h2">café</h2>
+        </div>
+      </section>
+      <div class="container my-5">
+        <section class="card-container">
+          <div class="col-3" style="width: 17rem">
+            <div class="card">
+              <img
+                src="https://www.altoastral.com.br/media/uploads/legacy/2016/11/cafe-com-leite.jpg"
+                class="coffee-milk"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="title">Café</h5>
+                <div class="text">
+                  <p>Café simples............................................R$2,00</p>
+                  <p class="leite">
+                    Café com leite.........................................R$4,00
+                  </p>
+                </div>
+                <a href="#" class="btn btn-primary"
+                  ><i class="wapp bi-whatsapp"></i> Fazer o pedido</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-3" style="width: 17rem">
+            <div class="card">
+              <img
+                src="https://s2.glbimg.com/rxYFQDOoBZDPxyGzf02dEpu3rgw=/e.glbimg.com/og/ed/f/original/2020/01/24/coffee-4334647_1920.jpg"
+                class="express"
+                alt="Café expresso"
+              />
+              <div class="card-body">
+                <h5 class="title">Expresso</h5>
+                <div class="text">
+                  <p class="maquina">
+                    Café expresso na máquina.....................R$4,00
+                  </p>
+                </div>
+                <a href="#" class="btn btn-primary"
+                  ><i class="wapp bi-whatsapp"></i> Fazer o pedido</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-3" style="width: 17rem">
+            <div class="card">
+              <img
+                src="https://simoesfilhoonline.com.br/wp-content/uploads/2021/10/Cafe-Mocha.jpg"
+                class="coffee-mocha"
+                alt="Café Mocha"
+              />
+              <div class="card-body">
+                <h5 class="title">Mocha</h5>
+                <div class="text">
+                  <p>Café cremoso simples............................R$5,00</p>
+                  <p class="cremoso">
+                    Café cremoso c/ creme..........................R$6,00
+                  </p>
+                </div>
+                <a href="#" class="btn btn-primary"
+                  ><i class="wapp bi-whatsapp"></i> Fazer o pedido</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-3" style="width: 17rem">
+            <div class="card">
+              <img
+                src="https://villacafe.com.br/blog/wp-content/uploads/2020/07/VillaCaf%C3%A9_Caf%C3%A9s-1.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="title">Cappuccino</h5>
+                <div class="text">
+                  <p>Cappuccino pequeno...............................R$5,00</p>
+                  <p>Cappuccino grande.................................R$6,00</p>
+                  <p>Cappuccino c/ chantilly.........................R$8,00</p>
+                </div>
+                <a href="#" class="btn btn-primary"
+                  ><i class="wapp bi-whatsapp"></i> Fazer o pedido</a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- doces -->
+      <section>
+        <div class="coffee">
+          <h2 class="h2">DOCES</h2>
+        </div>
+      </section>
+
+      <div class="container my-5">
+        <section class="card-container">
+          <div class="col-3" style="width: 17rem">
+            <div class="card">
+              <img
+                src="https://www.receitadevovo.com.br/_next/image?url=https%3A%2F%2Fd2qcpt1idvpipw.cloudfront.net%2Frecipes%2F2020%2F10%2Fcomo-fazer-receita-de-bolo-simples-caseiro_27032020143542.jpg&w=1536&q=75"
+                class="caseiro"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="title">Bolo caseiro</h5>
+                <div class="text">
+                  <p>Fatia..........................................................R$3,00</p>
+                  <p>Bolo inteiro...........................................R$12,00</p>
+                </div>
+                <a href="#" class="btn btn-primary"
+                  ><i class="wapp bi-whatsapp"></i> Fazer o pedido</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-3" style="width: 17rem">
+            <div class="card">
+              <img
+                src="https://www.montarumnegocio.com/wp-content/uploads/2022/06/fatias-gourmet.jpg"
+                class="caseiro"
+                alt="Fatia de torta de chocolate"
+              />
+              <div class="card-body">
+                <h5 class="title">Torta</h5>
+                <div class="text">
+                  <p class="torta">
+                    Fatia..........................................................R$6,00
+                  </p>
+                </div>
+                <a href="#" class="btn btn-primary"
+                  ><i class="wapp bi-whatsapp"></i> Fazer o pedido</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-3" style="width: 17rem">
+            <div class="card">
+              <img
+                src="https://guiadacozinha.com.br/wp-content/uploads/2019/11/bala-de-leite-11534.jpg"
+                class="caseiro"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="title">Bala de leite</h5>
+                <div class="text">
+                  <p class="bala">
+                    Pote com 14 unidades............................R$6,00
+                  </p>
+                </div>
+                <a href="#" class="btn btn-primary"
+                  ><i class="wapp bi-whatsapp"></i> Fazer o pedido</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-3" style="width: 17rem">
+            <div class="card">
+              <img
+                src="https://img.cybercook.com.br/receitas/711/trufas-de-chocolate-7.jpeg"
+                class="caseiro"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="title">Trufas</h5>
+                <div class="text">
+                  <p class="trufa">Unidade.....................................................R$3,00</p>
+                </div>
+                <a href="#" class="btn btn-primary"
+                  ><i class="wapp bi-whatsapp"></i> Fazer o pedido</a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      
+      <!-- salgados -->
+      <section>
+        <div class="coffee">
+          <h2 class="h2">SALGADOS</h2>
+        </div>
+      </section>
+
+      <div class="container my-5">
+        <section class="card-container">
+          <div class="col-3" style="width: 17rem">
+            <div class="card">
+              <img
+                src="https://www.receitasedicasdochef.com.br/wp-content/uploads/2014/09/Torta-de-Frango-de-Liquidificador.jpg"
+                class="caseiro"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="title">Torta salgada</h5>
+                <div class="text">
+                  <p class="salgada">Fatia.......................................................R$5,00</p>
+                  
+                </div>
+                <a href="#" class="btn btn-primary"
+                  ><i class="wapp bi-whatsapp"></i> Fazer o pedido</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-3" style="width: 17rem">
+            <div class="card">
+              <img
+                src="https://cozinhasimples.com.br/wp-content/uploads/empadinha-cozinha-simples-1-780x470.jpg"
+                class="empa"
+                alt="Fatia de torta de chocolate"
+              />
+              <div class="card-body">
+                <h5 class="title">Empadinha</h5>
+                <div class="text">
+                  <p class="empadinha">
+                    unidade....................................................R$3,00
+                  </p>
+                </div>
+                <a href="#" class="btn btn-primary"
+                  ><i class="wapp bi-whatsapp"></i> Fazer o pedido</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-3" style="width: 17rem">
+            <div class="card">
+              <img
+                src="https://www.receitasnestle.com.br/sites/default/files/srh_recipes/4229e413eb54b8bf91a0fd9704d5b11b.jpg"
+                class="caseiro"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="title">Pão de queijo</h5>
+                <div class="text">
+                  <p class="queijo">
+                    unidade.....................................................R$1,00
+                  </p>
+                </div>
+                <a href="#" class="btn btn-primary"
+                  ><i class="wapp bi-whatsapp"></i> Fazer o pedido</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-3" style="width: 17rem">
+            <div class="card">
+              <img
+                src="https://paraisodacozinha.com.br/wp-content/uploads/misto-quente-tradicional-a.jpg"
+                class="caseiro"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="title">Misto quente</h5>
+                <div class="text">
+                  <p class="presunto">Queijo e presunto....................................R$5,00</p>
+                </div>
+                <a href="#" class="btn btn-primary"
+                  ><i class="wapp bi-whatsapp"></i> Fazer o pedido</a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <div class="coded">
+          <p>
+            Developed and coded by
+            <a href="https://github.com/nunes1886" target="_blank"
+              >Gledson Nunes</a
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>

@@ -43,16 +43,16 @@ body {
 
 h1 {
   text-align: center;
-  margin-top: 1rem;
+  margin-top: 6rem;
   /* margin-bottom: 5rem; */
   color: rgb(96, 56, 19);
   font-family: "Bebas Neue", cursive;
 }
 
 .h2 {
-  text-align: center;
+  
   /* margin-top: 5rem; */
-  margin-bottom: 5rem;
+  margin-top: 3rem;
   color: rgb(96, 56, 19);
   font-family: "Bebas Neue", cursive;
 }
@@ -75,6 +75,11 @@ h1 {
   width: 300px;
 }
 
+.cafe-img, .cafe-mocha {
+  width: 300px;
+  height: 270px;
+}
+
 .expresso img {
   height: 232px;
 }
@@ -82,15 +87,27 @@ h1 {
   height: 280px;
 }
 
-.cafe-body, .expresso-body, .mocha-body {
+.cafe-body {
   background-color: #fff;
-  padding: 61px 30px;
+  padding: 113px 80px;
+  border-radius: 0 10px 10px 0;
+}
+
+.expresso-body {
+  background-color: #fff;
+  padding: 94px 90px;
+  border-radius: 0 10px 10px 0;
+}
+
+.mocha-body{
+  background-color: #fff;
+  padding: 113px 96px;
   border-radius: 0 10px 10px 0;
 }
 
 .cappuccino-body {
   background-color: #fff;
-  padding: 18px 30px;
+  padding: 117px 90px;
   border-radius: 0 10px 10px 0;
 }
 
@@ -99,7 +116,92 @@ p {
   font-family: "Bebas Neue", cursive;
 }
 
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.title {
+  color: rgb(96, 56, 19);
+  font-family: "Bebas Neue", cursive;
+  font-size: 25px;
+}
+
+.cremoso, .leite, .torta, .bala, .trufa {
+  padding-bottom: 20px;
+}
+
+  .empa, .express{
+    width: 270px;
+    height: 190px;
+  }
+
+.queijo, .salgada {
+  padding-top: 20px;
+}
+
+.empadinha, .presunto {
+  padding-top: 20px;
+}
+
+.maquina {
+  padding: 24px 0 20px 0;
+}
+
+.text {
+  text-align: center;
+}
+
+.card p {
+  margin: 0;
+}
+
+.coffee-mocha, .coffee-milk {
+  width: 270px;
+  height: 188px;
+  border-radius: 10xp 10px;
+}
+
+.card img {
+  border-radius: 6px 6px 0 0;
+}
+
+.wapp {
+  color: #fff;
+}
+
+.coded {
+  text-align: center;
+}
+
 /* breakpoints */
+
+@media (max-width: 992px) {
+  body {
+    background-image: url("https://i.pinimg.com/736x/05/ff/a2/05ffa2fc15da3fca1fabe2a6d0732c42.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .carousel {
+    display: none;
+  }
+
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .coffee-milk, .coffee-mocha {
+  width: 270px;
+}
+
+h1 {
+  margin-top: 3rem;
+}
+}
 
 @media (max-width: 690px) {
   body {
@@ -108,102 +210,24 @@ p {
     background-size: 100% 100%;
   }
 
-  .cafe-header {
-    width: 300px;
+  .carousel {
+    display: none;
   }
 
-  .container {
+  .card-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
   }
 
-  .cafe-leite {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-  }
+  .coffee-milk, .coffee-mocha {
+  width: 270px;
+}
 
-  .section-cafe-leite {
-    background-color: #fff;
-    padding: 10px 8px;
-    border-radius: 20px;
-    margin-bottom: 3rem;
-  }
-
-  .cafe-leite img {
-    /* margin-bottom: 3rem; */
-    box-shadow: none;
-    width: 295px;
-    height: 260px;
-  }
-
-  .cappuccino {
-    /* margin-top: 5rem; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 auto;
-    gap: 8px;
-  }
-
-  .section-cappuccino {
-    background-color: #fff;
-    padding: 10px 8px;
-    border-radius: 20px;
-    margin-bottom: 3rem;
-  }
-
-  .img-cappuccino {
-    /* margin-bottom: 5px; */
-    box-shadow: none;
-  }
-
-  .expresso {
-    display: grid;
-    grid-template-columns: 2;
-    align-items: center;
-    justify-content: center;
-    margin-top: 0;
-    margin-bottom: 3rem;
-    gap: 8px;
-  }
-
-  .section-expresso {
-    background-color: #fff;
-    padding: 10px 8px;
-    border-radius: 20px;
-  }
-
-  .img-expresso {
-    box-shadow: none;
-  }
-
-  .mocha {
-    margin-top: 5rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 auto;
-    gap: 8px;
-  }
-
-  .section-mocha {
-    background-color: #fff;
-    padding: 10px 8px;
-    border-radius: 20px;
-    margin-bottom: 3rem;
-  }
-
-  .img-mocha {
-    box-shadow: none;
-    width: 295px;
-    height: 280px;
-  }
+h1 {
+  margin-top: 3rem;
+}
 }
 
 /* Estilos para o carrossel */
